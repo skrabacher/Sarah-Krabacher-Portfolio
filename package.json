@@ -4,7 +4,7 @@
   "description": "TalentPath FSJS Project 6 - Static Node.js and Express Site",
   "main": "app.js",
   "scripts": {
-    "start" : "npm start",
+    "start" : "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sarah Krabacher",
