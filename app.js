@@ -28,7 +28,7 @@ app.use((req, res, next) => { //404 handler > if request isn't picked up by one 
 });
 
 //Runs the express server on port 4000
-app.listen(3000, () => { //FIRST parameter is the port number. (3000) type "localhost:3000" into browser and "node app.js" into the command line to run the app and activatete express server
+app.listen(process.env.PORT || 3000, () => { //FIRST parameter is the port number. (3000) type "localhost:3000" into browser and "node app.js" into the command line to run the app and activatete express server
     console.log('The app is running on localhost:3000');
 }); 
 //The `app.listen` method can take a parameter, which will tell the server: which port to serve the application on
